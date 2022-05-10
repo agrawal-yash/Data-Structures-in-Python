@@ -9,7 +9,7 @@ import math
 
 # Retrieve Minimun Value from stack in constant time
 # instead of individual items, you push tuples on stack 
-# with each item having the min value of the stack as the 2nd valu
+# with each item having the min value of the stack as the 2nd value
 
 class Stack :
     def __init__(self):
@@ -60,7 +60,4 @@ if __name__ == "__main__":
     stack.push(-10)
     stack.push(0)
     
-    
-    print (stack.peek()) # expected : 1, 2, 3, 4, 5
-    
-    # print (stack.getMin())
+    print (stack.getMin())
